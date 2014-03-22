@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Redminer timer</string>
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="btnEnter">Enter</string>
+    <string name="textURL">URL Redmine:</string>
+    <string name="action_settings">Settings</string>
+    <string name="preference_key_file">info.guron.redminer.setting</string>
+    <string name="LoginError_Dialog">Connection error(password or don\'t connect)</string>
+    <string name="LoginError_Dialog_ok">Ок</string>
+    <string name="title_activity_main">Redminer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <string name="activity_label_tasks">Tasks</string>
+    <string name="activity_label_setting">Setting</string>
+    <string name="activity_label_login">Login</string>
+
+    <string name="toast_login_in_true">Successfully login in!</string>
+    <string name="toast_login_in_false">Error login in.</string>
+    <string name="toast_time_sended">Time sended.</string>
+
+
+
+    <string name="spent_time">Spent time:</string>
+    <string name="send_time">Send time</string>
+
+
+    
+    <string name="real_login"></string>
+    <string name="real_pass"></string>
+    <string name="real_url"></string>
+
+    <string name="issue_hours">hours:</string>
+    <string name="issue_minutes">minutes:</string>
+
+    <string name="notify_error_send_time">Connection error, can not send time.</string>
+
+    <string name="issue">Issue</string>
+
+    <!--Setting menu-->
+    <string name="setting_common_setting">Common</string>
+    <string name="setting_account">Account</string>
+    <string name="setting_connection_timeout">Timeout connection</string>
+    <string name="setting_refresh_time">Auto refresh list issues(min)</string>
+
+
+    <!--buttons-->
+    <string name="btn_save">Save</string>
+
+
+
+
+
+
+</resources>

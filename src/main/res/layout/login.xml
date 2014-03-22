@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#507BA8"
+    android:baselineAligned="false"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:id="@+id/login_layout">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:text="@string/login"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="right"
+                android:layout_gravity="center_horizontal"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:autoText="true"
+                android:enabled="true"
+                android:hint="You login"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:editable="true"
+                android:clickable="true"
+                android:text="@string/real_login"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+
+
+
+
+            <TextView android:layout_width="wrap_content"
+                android:text="@string/password"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="right"
+                android:layout_gravity="center_horizontal">
+
+                </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:autoText="false"
+                android:enabled="true"
+                android:hint="You password"
+                android:background="#ffffff"
+
+                android:password="true"
+                android:layout_marginTop="0dp"
+                android:padding="5dp"
+                android:editable="true"
+                android:clickable="true"
+                android:text="@string/real_pass"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                android:text="@string/textURL"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="right"
+                android:layout_gravity="center_horizontal">
+
+                </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textURL"
+                android:autoText="true"
+                android:enabled="true"
+                android:hint="https://example.com"
+                android:background="#ffffff"
+
+                android:padding="5dp"
+                android:editable="true"
+                android:lines="1"
+                android:text="@string/real_url"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEnter"
+            android:id="@+id/Button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="clickLogin"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_progress"
+        android:visibility="gone" />
+
+</LinearLayout>

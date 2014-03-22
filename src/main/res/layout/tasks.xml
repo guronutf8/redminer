@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#507BA8">
+
+
+    <ProgressBar
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbGetTasks"
+        android:layout_gravity="center_horizontal" />
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:background="#ffccff"-->
+        <!--android:id="@+id/UpdateLayout"-->
+        <!--android:paddingTop="100dp"></FrameLayout>-->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/lvTask"
+        android:smoothScrollbar="true" />
+
+
+
+</LinearLayout>

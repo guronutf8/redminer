@@ -37,7 +37,11 @@
     <!--buttons-->
     <string name="btn_save">Save</string>
 
-
+    <!--Change language-->
+    <string name="Restart">Restart</string>
+    <string name="LangTitle">Language</string>
+    <string name="LangDialogTitle">Choose language:</string>
+    <string name="LangSummary">Application language.\nNeed restart application to apply changes.</string>
 
 
 

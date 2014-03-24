@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+   android:key="lang"
+   android:title="@string/LangTitle"
+   android:summary="@string/LangSummary"
+   android:entries="@array/entries_lang"
+   android:entryValues="@array/entryvalues_lang"
+   android:dialogTitle="@string/LangDialogTitle" />
+    <PreferenceScreen android:title="@string/Restart" android:key="restart"></PreferenceScreen>
+</PreferenceScreen>

@@ -6,6 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.view.GestureDetectorCompat;
@@ -26,6 +27,7 @@ import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 
 //import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
@@ -51,6 +53,8 @@ public class TasksList extends Activity   {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         Log.d(LOG_TAG, "onCreate");
+
+
 
 
         //Создание пендинга, который спрашивает у сервера задачи.

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Redminer timer</string>
+    <string name="app_name">Redmine timer tracker</string>
     <string name="login">Пользователь:</string>
     <string name="password">Пароль:</string>
     <string name="btnEnter">Вход</string>
     <string name="textURL">Адрес Redmine:</string>
-
     <string name="action_settings">Настройки</string>
 
     <string name="LoginError_Dialog">Не известная ошибка соединения =)</string>
     <string name="LoginError_Dialog_ok">Ок</string>
-
+    <string name="title_activity_main">Redmine timer tracker</string>
     <string name="spent_time">Затраченое время:</string>
     <string name="send_time">Отправить время</string>
 
@@ -19,7 +18,6 @@
     <string name="issue_minutes">минуты:</string>
 
     <string name="notify_error_send_time">Ошибка соединения, не удается отправить время.</string>
-
     <string name="issue">Задача</string>
 
     <!--Setting menu-->
@@ -27,6 +25,14 @@
     <string name="setting_account">Учетная запись</string>
     <string name="setting_connection_timeout">Таймаут соединения</string>
     <string name="setting_refresh_time">Авто обновление списка задач(мин)</string>
+
+    <string name="activity_label_tasks">Задачи</string>
+    <string name="activity_label_setting">Настройки</string>
+    <string name="activity_label_login">Вход в redmine</string>
+
+    <string name="toast_login_in_true">Вошли в систему</string>
+    <string name="toast_login_in_false">Ошибка входа в систему</string>
+    <string name="toast_time_sended">Время отправлено</string>
 
     <!--buttons-->
     <string name="btn_save">Сохранить</string>
